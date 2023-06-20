@@ -1,0 +1,144 @@
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "OverPass";
+}
+
+.header {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #ffcc00, #d50000, #ff6d00);
+  color: #fff;
+}
+
+.interaction-buttons {
+  margin-top: 20px;
+}
+
+.about-section {
+  padding: 40px;
+  background: linear-gradient(135deg, #fff7cc, #ffcc00);
+  color: #000;
+}
+
+.subs-section {
+  padding: 40px;
+  background: linear-gradient(135deg, #ff7d47, #d50000);
+  color: #fff;
+}
+
+.nav-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  color: #000;
+}
+
+.card-title {
+  color: #000;
+}
+
+
+.interaction-buttons {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.checkbox-group {
+  margin-top: 10px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #ffcc00, #d50000, #ff6d00);
+  color: #fff;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+
+.order-details table {
+  width: 100%;
+}
+
+.order-details table th,
+.order-details table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.coupon-section {
+  margin-top: 20px;
+}
+
+.coupon-section input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.coupon-section button {
+  margin-top: 10px;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.order-summary h4 {
+  margin-bottom: 10px;
+}

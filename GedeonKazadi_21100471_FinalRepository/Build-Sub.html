@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="Student Name" content="Gedeon Kazadi">
+  <meta name="Student Number" content="21100471">
+  <meta name="Subject" content="DV-100">
+  <meta name="Lecturer" content="Mike Maynard">
+  <meta name="Class" content="Class-2">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build a Sub Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/subway-restaurant-black-logo-hd-png-116533058027rr48amgml.png" width="125px" height="25px" alt="Logo" class="nav-logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Order Online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locations</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1>Build Your Own Sub</h1>
+  </header>
+
+  <section class="container">
+    <form id="build-sub-form">
+      <div class="form-group">
+        <label for="sub-name">Sub Name:</label>
+        <input type="text" id="sub-name" placeholder="Enter sub name">
+      </div>
+      <div class="form-group">
+        <label for="bread">Bread:</label>
+        <select id="bread">
+          <option value="white">White</option>
+          <option value="wheat">Wheat</option>
+          <option value="multigrain">Multigrain</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Toppings:</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="topping" value="lettuce">Lettuce</label>
+          <label><input type="checkbox" name="topping" value="tomato">Tomato</label>
+          <label><input type="checkbox" name="topping" value="onion">Onion</label>
+          <label><input type="checkbox" name="topping" value="bell-pepper">Bell Pepper</label>
+          <label><input type="checkbox" name="topping" value="cucumber">Cucumber</label>
+          <label><input type="checkbox" name="topping" value="pickles">Pickles</label>
+          <label><input type="checkbox" name="topping" value="olives">Olives</label>
+          <label><input type="checkbox" name="topping" value="jalapenos">Jalapenos</label>
+          <label><input type="checkbox" name="topping" value="mushrooms">Mushrooms</label>
+          <label><input type="checkbox" name="topping" value="avocado">Avocado</label>
+          <label><input type="checkbox" name="topping" value="bacon">Bacon</label>
+          <label><input type="checkbox" name="topping" value="cheese">Cheese</label>
+          <label><input type="checkbox" name="topping" value="ham">Ham</label>
+          <label><input type="checkbox" name="topping" value="turkey">Turkey</label>
+          <label><input type="checkbox" name="topping" value="roast-beef">Roast Beef</label>
+          <label><input type="checkbox" name="topping" value="chicken">Chicken</label>
+          <label><input type="checkbox" name="topping" value="salami">Salami</label>
+          <label><input type="checkbox" name="topping" value="pepperoni">Pepperoni</label>
+          <label><input type="checkbox" name="topping" value="mayo">Mayo</label>
+          <label><input type="checkbox" name="topping" value="mustard">Mustard</label>
+          <label><input type="checkbox" name="topping" value="ranch">Ranch</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="sauce">Sauce:</label>
+        <select id="sauce">
+          <option value="mayo">Mayo</option>
+          <option value="mustard">Mustard</option>
+          <option value="ranch">Ranch</option>
+          <option value="chipotle">Chipotle</option>
+          <option value="thousand-island">Thousand Island</option>
+          <option value="honey-mustard">Honey Mustard</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="sub-cost">Sub Cost:</label>
+        <input type="number" id="sub-cost" value="0" readonly>
+      </div>
+      <button type="submit" class="btn btn-primary" a href="checkout.html"></a>Add Sub</button>
+    </form>
+    <div id="order-summary">
+      <h3>Order Summary:</h3>
+      <ul id="sub-list"></ul>
+      <h4>Total Cost: <span id="total-cost">0</span></h4>
+      <button id="submit-order" class="btn btn-success">Submit Order</button>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="Student Name" content="Gedeon Kazadi">
+  <meta name="Student Number" content="21100471">
+  <meta name="Subject" content="DV-100">
+  <meta name="Lecturer" content="Mike Maynard">
+  <meta name="Class" content="Class-2">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/subway-restaurant-black-logo-hd-png-116533058027rr48amgml.png"
+        width="125px" height="25px" alt="Logo" class="nav-logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Build-Sub.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Order Online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locations</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </nav>
+
+  <header class="header">
+    <h1>Checkout</h1>
+  </header>
+
+  <section class="container order-details">
+    <h3>Order Details:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Sub Name</th>
+          <th>Bread</th>
+          <th>Toppings</th>
+          <th>Sauce</th>
+          <th>Sub Cost</th>
+        </tr>
+      </thead>
+      <tbody id="order-details-body">
+      
+      </tbody>
+    </table>
+  </section>
+
+  
+  <section class="container coupon-section">
+    <h3>Apply Coupon:</h3>
+    <input type="text" id="coupon-input" placeholder="Enter coupon code">
+    <button type="button" id="apply-coupon-btn" class="btn btn-primary">Apply Coupon</button>
+  </section>
+
+  <section class="container order-summary">
+    <h3>Order Summary:</h3>
+    <h4>Total Cost: $<span id="total-cost">0</span></h4>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
